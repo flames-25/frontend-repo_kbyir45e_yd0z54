@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom'
-import { IceCream, Menu, X, Phone, MapPin } from 'lucide-react'
+import { IceCream, Menu, X, Phone, MapPin, Mail } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Navbar() {
@@ -31,6 +31,9 @@ export default function Navbar() {
               <a href="tel:9782017257" className="ml-2 inline-flex items-center gap-2 bg-white text-pink-700 px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
                 <Phone className="w-4 h-4" /> Call 97820 17257
               </a>
+              <a href="mailto:2006amanagarwal@gmail.com" className="inline-flex items-center gap-2 bg-white/10 text-white px-4 py-2 rounded-full font-semibold border border-white/30 hover:bg-white/20">
+                <Mail className="w-4 h-4" /> Email Us
+              </a>
             </nav>
 
             <button onClick={() => setOpen(!open)} className="lg:hidden text-white p-2 rounded hover:bg-white/20">
@@ -50,6 +53,9 @@ export default function Navbar() {
               <NavLink to="/contact" onClick={() => setOpen(false)} className={linkClass}>Contact</NavLink>
               <a href="tel:9782017257" className="mt-2 inline-flex items-center gap-2 text-white/95">
                 <Phone className="w-4 h-4" /> 97820 17257
+              </a>
+              <a href="mailto:2006amanagarwal@gmail.com" className="inline-flex items-center gap-2 text-white/95">
+                <Mail className="w-4 h-4" /> 2006amanagarwal@gmail.com
               </a>
               <div className="flex items-center gap-2 text-white/95">
                 <MapPin className="w-4 h-4" /> Spreading smiles across the city
