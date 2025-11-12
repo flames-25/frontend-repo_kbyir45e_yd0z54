@@ -10,7 +10,7 @@ export default function Footer(){
             <a href="tel:9782017257" className="inline-flex items-center gap-2 bg-white text-pink-700 px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
               <Phone className="w-4 h-4" /> Call 97820 17257
             </a>
-            <a href="mailto:2006amanagarwal@gmail.com" className="inline-flex items-center gap-2 bg-pink-700 text-white px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
+            <a href="mailto:2006amanagarwall@gmail.com" className="inline-flex items-center gap-2 bg-pink-700 text-white px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
               <Mail className="w-4 h-4" /> Email Us
             </a>
           </div>

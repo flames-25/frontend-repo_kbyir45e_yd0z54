@@ -19,7 +19,7 @@ export default function Contact(){
             <h3 className="text-xl font-bold text-pink-700">Contact Details</h3>
             <ul className="mt-4 space-y-3 text-pink-900/80">
               <li className="flex items-center gap-3"><Phone className="w-5 h-5 text-pink-600" /> +91 97820 17257</li>
-              <li className="flex items-center gap-3"><Mail className="w-5 h-5 text-pink-600" /> 2006amanagarwal@gmail.com</li>
+              <li className="flex items-center gap-3"><Mail className="w-5 h-5 text-pink-600" /> 2006amanagarwall@gmail.com</li>
               <li className="flex items-start gap-3"><MapPin className="w-5 h-5 text-pink-600" /> 5 STAR ICREAM Factory, Industrial Area, Sector 12, Your City</li>
             </ul>
 

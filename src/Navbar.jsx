@@ -31,7 +31,7 @@ export default function Navbar() {
               <a href="tel:9782017257" className="ml-2 inline-flex items-center gap-2 bg-white text-pink-700 px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
                 <Phone className="w-4 h-4" /> Call 97820 17257
               </a>
-              <a href="mailto:2006amanagarwal@gmail.com" className="inline-flex items-center gap-2 bg-white/10 text-white px-4 py-2 rounded-full font-semibold border border-white/30 hover:bg-white/20">
+              <a href="mailto:2006amanagarwall@gmail.com" className="inline-flex items-center gap-2 bg-white/10 text-white px-4 py-2 rounded-full font-semibold border border-white/30 hover:bg-white/20">
                 <Mail className="w-4 h-4" /> Email Us
               </a>
             </nav>
@@ -54,8 +54,8 @@ export default function Navbar() {
               <a href="tel:9782017257" className="mt-2 inline-flex items-center gap-2 text-white/95">
                 <Phone className="w-4 h-4" /> 97820 17257
               </a>
-              <a href="mailto:2006amanagarwal@gmail.com" className="inline-flex items-center gap-2 text-white/95">
-                <Mail className="w-4 h-4" /> 2006amanagarwal@gmail.com
+              <a href="mailto:2006amanagarwall@gmail.com" className="inline-flex items-center gap-2 text-white/95">
+                <Mail className="w-4 h-4" /> 2006amanagarwall@gmail.com
               </a>
               <div className="flex items-center gap-2 text-white/95">
                 <MapPin className="w-4 h-4" /> Spreading smiles across the city
