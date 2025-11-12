@@ -6,7 +6,17 @@ export default function About(){
         <p className="text-pink-900/80 text-center mt-2 max-w-2xl mx-auto">We are a factory-based ice cream brand creating colorful, creamy joy for everyone. Every batch is crafted with premium ingredients and lots of love.</p>
         <div className="mt-10 bg-white/80 backdrop-blur rounded-3xl p-8 shadow border border-white">
           <h3 className="text-xl font-bold text-pink-700">Our Story</h3>
-          <p className="mt-2 text-pink-900/80">Starting with a single churner, we grew into a vibrant ice cream factory known for freshness and flavor variety. From vanilla to vibrant seasonal specials, our goal is to spread smiles in every scoop.</p>
+          <div className="mt-2 space-y-4 text-pink-900/80">
+            <p>
+              Our journey began with a simple dream and a lot of determination. Right after completing 12th grade, I decided to turn my passion for ice cream into something bigger — a factory that could bring smiles to people with every scoop.
+            </p>
+            <p>
+              Starting this factory was not easy; it took hard work, long hours, and countless challenges. But with dedication and belief in quality, what began as a small venture has now grown into a recognized brand loved by many.
+            </p>
+            <p>
+              Today, our ice cream is not just a product — it’s a symbol of passion, perseverance, and purity. Every flavor we create tells the story of our journey from a dream to a brand that people trust and enjoy.
+            </p>
+          </div>
           <h3 className="mt-6 text-xl font-bold text-pink-700">Why Choose Us</h3>
           <ul className="list-disc pl-6 mt-2 text-pink-900/80 space-y-1">
             <li>Factory fresh production</li>
