@@ -28,8 +28,8 @@ export default function Navbar() {
               <NavLink to="/locations" className={linkClass}>Locations</NavLink>
               <NavLink to="/about" className={linkClass}>About</NavLink>
               <NavLink to="/contact" className={linkClass}>Contact</NavLink>
-              <a href="/contact" className="ml-2 inline-flex items-center gap-2 bg-white text-pink-700 px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
-                <Phone className="w-4 h-4" /> Enquire
+              <a href="tel:9782017257" className="ml-2 inline-flex items-center gap-2 bg-white text-pink-700 px-4 py-2 rounded-full font-semibold shadow hover:shadow-md">
+                <Phone className="w-4 h-4" /> Call 97820 17257
               </a>
             </nav>
 
@@ -48,7 +48,10 @@ export default function Navbar() {
               <NavLink to="/locations" onClick={() => setOpen(false)} className={linkClass}>Locations</NavLink>
               <NavLink to="/about" onClick={() => setOpen(false)} className={linkClass}>About</NavLink>
               <NavLink to="/contact" onClick={() => setOpen(false)} className={linkClass}>Contact</NavLink>
-              <div className="mt-2 flex items-center gap-2 text-white/95">
+              <a href="tel:9782017257" className="mt-2 inline-flex items-center gap-2 text-white/95">
+                <Phone className="w-4 h-4" /> 97820 17257
+              </a>
+              <div className="flex items-center gap-2 text-white/95">
                 <MapPin className="w-4 h-4" /> Spreading smiles across the city
               </div>
             </div>
