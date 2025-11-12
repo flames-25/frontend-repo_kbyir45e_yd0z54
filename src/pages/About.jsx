@@ -17,6 +17,12 @@ export default function About(){
               Today, our ice cream is not just a product — it’s a symbol of passion, perseverance, and purity. Every flavor we create tells the story of our journey from a dream to a brand that people trust and enjoy.
             </p>
           </div>
+
+          <div className="mt-6 p-4 bg-rose-50/70 border border-rose-100 rounded-2xl">
+            <p className="text-xs sm:text-sm uppercase tracking-widest text-pink-600">Owner</p>
+            <p className="mt-1 text-lg sm:text-xl font-extrabold text-pink-800">MR. SATYANARAYAN AGARWAL</p>
+          </div>
+
           <h3 className="mt-6 text-xl font-bold text-pink-700">Why Choose Us</h3>
           <ul className="list-disc pl-6 mt-2 text-pink-900/80 space-y-1">
             <li>Factory fresh production</li>
